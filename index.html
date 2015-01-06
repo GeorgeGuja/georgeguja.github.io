@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>George Guja</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,46 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<style>
+.card {
+    background: #FFFFFF; 
+    border: 1px solid #DEDEDE;
+    padding: 0px 10px 10px 10px;    
+    border-radius: 3px;
+    box-shadow: 0 6px 6px -6px #000000;
+	color:#3A89C9;
+	
+}
 
+.skillGroup {
+margin-bottom: 10px;
+}
+
+.skillGroup span {
+font-size: 1em;
+line-height: 2em;
+font-weight: bold;
+background: #3A89C9;
+color: #FFFFFF;
+padding: 8px 15px;
+border-radius: 2px;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+}
+
+.job img {
+float:left;
+padding-right:10px;
+}
+.job h4 {
+color:black;
+}
+
+.job li{
+font-size:18px;
+}
+
+</style>
 </head>
 
 <body id="page-top" class="index">
@@ -44,7 +83,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -76,9 +115,9 @@
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Start Bootstrap</span>
+                        <span class="name">George Guja</span>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">Software Developer</span>
                     </div>
                 </div>
             </div>
@@ -125,62 +164,46 @@
                         <img src="img/portfolio/circus.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
-                    </a>
-                </div>
+                
             </div>
         </div>
     </section>
 
     <!-- About Section -->
     <section class="success" id="about">
+	
         <div class="container">
+		
             <div class="row">
                 <div class="col-lg-12 text-center">
+				
                     <h2>About</h2>
                     <hr class="star-light">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div>
-            </div>
+			
+			
+           <div class = "skillGroup card">
+		   <h3>Languages</h3>
+		   <span>Java</span>
+		   <span>HTML/CSS/JavaScript/PHP</span>
+		   <span>VB.NET</span>
+		   <span>C#</span>
+		   <span>Python</span>
+		   <span>SQL</span>
+		   </div>
+		   
+		   <div class = "job card">
+		   <h3>Experience</h3>
+		   <h4>I.T Help Desk Techincian - Mohawk College</h4>
+		   <img src = "http://upload.wikimedia.org/wikipedia/commons/7/78/Farm-Fresh_calendar_view_month.png"></img> &#32;<p>April 2014 - Present</p>
+		   <li>Provide technical assistance and support for incoming queries and issues to varying platforms of software and hardware. Created appropriate tickets if required. </li> 
+		   <li>Ran diagnostic programs to seek further information and be able to relay more information in ticket. </li>
+			<li>Assigned users to proper groups in Active Directory.</li>
+			<li>Monitored Service Desk for tickets assigned to the queue and processed them based on priority.</li>
+			<li>Proficient in use of Cherwell Service Management software that is used across Mohawk College between I.T departments.</li>
+
+		   </div>
         </div>
     </section>
 
@@ -306,21 +329,16 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Bike Finder</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/e2YQIXO.gif" class="img-responsive img-centered" alt="">
+                            <p>Bike Finder is a device that was created for the assistance of locating a stolen or lost bike. The device is designed to blend in with the structure of the bike and uses an arduino 3G/SMS tracking system. The device stores energy with a main battery system that is powered by kinetic energy when the user is pedalling. There is also a back up battery in case of failure.<br><br>
+							  Contribution: Assisted in the development of the hardware prototype by setting up the 3G/WiFi shields on the arduino and ensuring they communicate coordinates with our server. 
+								Responsible for setting up the front end and back end of the project. Created the website(HTML/CSS/Javascript) and MySQL/PHP for the backend. 
+								The project was awarded 2nd Place at Startup Weekend Hamilton Maker Edition GSB 2014 and is currently under development.</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <strong>November 2014</a>
                                     </strong>
                                 </li>
                             </ul>
