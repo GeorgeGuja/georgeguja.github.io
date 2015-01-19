@@ -222,20 +222,36 @@ text-align:left;
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                     
-      
-   
+    <form action="https://getsimpleform.com/messages?form_api_token=a9578579a6073904e5354cde048b1e29" method="post">
+  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+  <input type='hidden' name='redirect_to' value='http://georgeguja.github.io' />
+ 
+ 
+		 
+        <div class="form-group">
+            <label for="exampleInputName">Name</label>
+            <input name="name" type="name" class="form-control" id="exampleInputName" placeholder="Enter name">
+        </div>
+    
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input name="_replyto" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+        </div>
+    
+        <div class="form-group">
+            <label for="exampleTextArea">Message</label>
+            <textarea name="message" class="form-control" rows="3"></textarea>    
+        </div>
+
+         <button type='submit'>Submit test message</button>
+
+    </form>
 
                 </div>
             </div>
         </div>
     </section>
-<form action="https://getsimpleform.com/messages?form_api_token=a9578579a6073904e5354cde048b1e29" method="post">
-  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
-  <!-- all your input fields here.... -->
-  <input type='text' name='name' placeholder='Enter your name'  />
-  <button type='submit'>Submit test message</button>
-</form>
+
     <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
@@ -508,8 +524,7 @@ text-align:left;
     <script src="js/cbpAnimatedHeader.js"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+   
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
